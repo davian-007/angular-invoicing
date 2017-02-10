@@ -22,8 +22,8 @@ angular.module('invoicing', [])
     postal: '006'
   },
   items:[
-    { qty: 5, description: 'Cell phone', cost: 99.99 }
-	{ qty: 1, description: 'Laptop', cost: 199.99 }
+    { qty: 5, description: 'Cell phone', cost: 99.99 },
+    { qty: 1, description: 'Laptop', cost: 199.99 }
   ]
 })
 
@@ -117,8 +117,8 @@ angular.module('invoicing', [])
       {
         name: 'US Dollar ($)',
         symbol: '$'
-      }
-	  {
+      },
+      {
         name: 'CR Colon (₡)',
         symbol: '₡'
       }
