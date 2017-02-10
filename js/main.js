@@ -8,21 +8,22 @@ angular.module('invoicing', [])
   tax: 13.00,
   invoice_number: 10,
   customer_info: {
-    name: 'Mr. John Doe',
-    web_link: 'John Doe Designs Inc.',
-    address1: '1 Infinite Loop',
-    address2: 'Cupertino, California, US',
-    postal: '90210'
+    name: 'Sr. Jorge Aguilar',
+    web_link: 'George Aguileras Inc.',
+    address1: 'Somewhere near to any place',
+    address2: 'Heredia, Costa Rica',
+    postal: '007'
   },
   company_info: {
-    name: 'Metaware Labs',
-    web_link: 'www.metawarelabs.com',
-    address1: '123 Yonge Street',
-    address2: 'Toronto, ON, Canada',
-    postal: 'M5S 1B6'
+    name: 'MC Logic Software',
+    web_link: 'www.mclogic.com',
+    address1: 'Somewhere I belong',
+    address2: 'San Jose, Costa Rica',
+    postal: '006'
   },
   items:[
-    { qty: 10, description: 'Gadget', cost: 9.95 }
+    { qty: 5, description: 'Cell phone', cost: 99.99 }
+	{ qty: 1, description: 'Laptop', cost: 199.99 }
   ]
 })
 
@@ -116,6 +117,10 @@ angular.module('invoicing', [])
       {
         name: 'US Dollar ($)',
         symbol: '$'
+      }
+	  {
+        name: 'CR Colon (₡)',
+        symbol: '₡'
       }
     ]
   }
